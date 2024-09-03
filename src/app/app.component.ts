@@ -40,4 +40,8 @@ export class AppComponent {
       this.value;
     }    
   }
+
+  sum(a: number, b: number) {
+    return a + b;
+}
 }
