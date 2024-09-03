@@ -23,10 +23,10 @@ export class AppComponent {
 
   constructor(){
     console.log('inside constructor');
-    effect(() =>{
-      console.log(this.amount());
-      //onsole.log(this.total());
-    })
+    // effect(() =>{
+    //   console.log(this.amount());
+    //   //onsole.log(this.total());
+    // })
   }
 
   addName(){
